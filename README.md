@@ -28,25 +28,25 @@ cd blog
 ## Налаштуйте базу даних у .env файлі:
 env
 DB_CONNECTION=mysql </br>
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=blog
-DB_USERNAME=root
-DB_PASSWORD=your_password
+DB_HOST=127.0.0.1 </br>
+DB_PORT=3306 </br>
+DB_DATABASE=blog </br>
+DB_USERNAME=root </br>
+DB_PASSWORD=your_password </br>
 
 ## Запустіть команди для міграцій та генерації ключа:
 
-php artisan migrate
-php artisan key:generate
+php artisan migrate </br>
+php artisan key:generate </br>
 
 ## Створення моделей і міграцій
 ...
 
 ## Налаштування авторизації
-Laravel вже має вбудовану підтримку авторизації. Використаємо laravel/breeze для швидкої реалізації:
+Laravel вже має вбудовану підтримку авторизації. Використаємо laravel/breeze для швидкої реалізації: </br>
 
-composer require laravel/breeze --dev
-php artisan breeze:install
-npm install && npm run dev
-php artisan migrate
+composer require laravel/breeze --dev </br>
+php artisan breeze:install </br>
+npm install && npm run dev </br>
+php artisan migrate </br>
 
