@@ -27,7 +27,7 @@ cd blog
 
 ## Налаштуйте базу даних у .env файлі:
 env
-DB_CONNECTION=mysql
+DB_CONNECTION=mysql </br>
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=blog
