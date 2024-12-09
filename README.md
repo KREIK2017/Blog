@@ -63,4 +63,32 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Ініціалізуйте проект Laravel:
+composer create-project laravel/laravel blog
+cd blog
+
+## Налаштуйте базу даних у .env файлі:
+env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=blog
+DB_USERNAME=root
+DB_PASSWORD=your_password
+
+## Запустіть команди для міграцій та генерації ключа:
+
+php artisan migrate
+php artisan key:generate
+
+## Створення моделей і міграцій
+...
+
+## Налаштування авторизації
+Laravel вже має вбудовану підтримку авторизації. Використаємо laravel/breeze для швидкої реалізації:
+
+composer require laravel/breeze --dev
+php artisan breeze:install
+npm install && npm run dev
+php artisan migrate
+
