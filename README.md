@@ -22,9 +22,9 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
 ## Ініціалізуйте проект Laravel:
-composer create-project laravel/laravel blog
+composer create-project laravel/laravel blog </br>
 cd blog
-
+## Заменіть створені файли: </br>
 ## Налаштуйте базу даних у .env файлі:
 env
 DB_CONNECTION=mysql </br>
